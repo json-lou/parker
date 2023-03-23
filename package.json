@@ -1,0 +1,28 @@
+{
+  "name": "parker",
+  "version": "1.0.0",
+  "description": "Jayson's coding submission for Parker",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./dist/server.js",
+    "tsc": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.5",
+    "@types/pg": "^8.6.6",
+    "@typescript-eslint/parser": "^5.56.0",
+    "nodemon": "^2.0.22",
+    "ts-loader": "^9.4.2",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0"
+  }
+}
