@@ -76,6 +76,16 @@ The purpose of each table is:
 
 ## Running
 
+### Prerequisites
+
+Ensure you have the latest version of Docker installed. Also, ensure your machine's port 5432 is available since this server will use port 5432 to host a Postgres instance. If a Postgres instance is already running on this port, you must stop the current instance. For example, this can be done on macOS with the following command:
+
+```
+brew services stop postgresql
+```
+
+### Instructions
+
 Enter the root directory of this project and run the following command.
 
 ```
@@ -98,6 +108,7 @@ Once the server and database are running, an API testing tool should be used.
 
 For the development of this project, Postman was used to send the POST and GET requests. Alternatively, cURL commands can also be used to verify correct API behaviour.
 
-A sample test plan can be found [here](./testplan.md).
+In addition, pgAdmin was used to verify the correct database behaviour occurred following each API call.
 
+A sample test plan can be found [here](./testplan.md). These commands test both the success and error cases of each of the developed endpoints.
 
